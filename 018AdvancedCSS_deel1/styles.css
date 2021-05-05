@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c3cfe2;
+  height: 100vh;
+}
+
+.cardheading {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  margin: 20px 20px 0;
+  box-shadow: 3px 3px lightslategray;
+  background-color: #fff;
+}
+.cardheading__text {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #3e3e3f;
+}
+.cardheading__pasfoto {
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  border: 5px solid #fff;
+  width: 120px;
+}
+
+.cardfooter {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 300px;
+  padding: 40px 0 10px;
+  margin: 0px 20px 20px;
+  box-shadow: 3px 3px lightslategrey;
+  background-color: #686de0;
+}
+.cardfooter__name {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.cardfooter__website {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  color: #c3cfe2;
+}/*# sourceMappingURL=styles.css.map */
